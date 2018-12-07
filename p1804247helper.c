@@ -165,58 +165,58 @@ void salesInput(char *fileName)
       if (numCity < ARRAY_SIZE)//check the number of cities exceeds the size of the array
       {
 
-        /*if (strcmp(line, "\n") == 0) //if line has no line, end the program
+        if (strcmp(line, "\n") == 0) //if line has no line, end the program
         {
           wrongFormat();
-        }*/
+        }
         strcpy(output_line, line); // copy the line of the text to the output file
 
         token = strtok(line, tab); // use strtok to get the date
         
         //if file input do not have the year-month-date, then stop the program
-       /* if (sscanf(token, "%d-%d-%d", &year, &month, &day) == 0)
+        if (sscanf(token, "%d-%d-%d", &year, &month, &day) == 0)
         {
           wrongFormat();
           return;
-        }*/
+        }
 
         token = strtok(NULL, tab); //use strtok to get the time
         
         //if file input do not have the hour:min, then stop the program
-     /*   if (sscanf(token, "%d:%d", &hour, &month) == 0)
+       if (sscanf(token, "%d:%d", &hour, &month) == 0)
         {
           wrongFormat();
           return;
-        }*/
+        }
 
         city = strtok(NULL, tab); //use strtok to get the city
         
                                   //if file input do not have a string, then stop the program
-      /*  if (sscanf(city, "%s", state) == 0)
+        if (sscanf(city, "%s", state) == 0)
         {
           wrongFormat();
           return;
-        }*/
+        }
 
         cat = strtok(NULL, tab); //use strtok to get items
         
         //if file input do not have a string, then stop the program
-     /*   if (sscanf(cat, "%s", items) == 0)
+        if (sscanf(cat, "%s", items) == 0)
         {
           wrongFormat();
           return;
-        }*/
+        }
 
         token = strtok(NULL, tab); //use strtok to get sales
         
         //if file input do not have double, then stop the program
-      /*  if (sscanf(token, "%lf", &money) == 0)
+        if (sscanf(token, "%lf", &money) == 0)
         {
           wrongFormat();
           return;
         }
         else
-        { */
+        { 
           //if there is sales, contiune process
           sales = atof(token);
           addCity(city, sales);          //Calling the addCity function
