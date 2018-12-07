@@ -222,7 +222,7 @@ void salesInput(char *fileName)
           addCity(city, sales);          //Calling the addCity function
           addCat(cat, sales);            //Calling the addCat function
           outputfile(output_line, city); //Calling the outputfile function
-       // }
+        }
       }
       else
       {
