@@ -26,7 +26,7 @@ The C program functionality
 2. Apply bubble sort scheme to get the top 3 and bottom 3 cities based on their sum of sales results.
 3. Record field extraction using strtok() 
 4. Handling multiple files I/O.
-File IO functions: fopen(), fclose(), fgets(), fputs()
+File IO functions: fopen(), fclose(), fgets(), fprints()
 input file name should be obtained via the command line.
 Read content from the input file line by line.
 Extract the city name from the line.
