@@ -9,6 +9,9 @@ ADMIN NO: P1804247
 CLASS: DISM/FT/1A/23
 YEAR OF ASSIGNMENT : 2018
 *****************************
+UPDATE: 16 FEB 2019
+GRADES FOR THIS ASSIGNMENT: A
+
 
 ASSIGNMENT OUTLINE 
 This application is simulating a sales report generator for a 
